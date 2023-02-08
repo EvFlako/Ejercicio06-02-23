@@ -23,5 +23,12 @@ body{
 
 .nav-barra:focus{
     border: 1.5px solid rgba(0, 0, 0, 0.897) !important;
+} 
+main{
+    display: flex;
+    flex-direction: column;
+    min-height: 90vh;
 }
+
+
 
