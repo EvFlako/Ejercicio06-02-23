@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Miltonian+Tattoo&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+}
+
+.nav-list{
+    background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+}
+
+.nav-tit{
+    font-family: 'Miltonian Tattoo', cursive;
+    
+}
+
+.nav-logo{
+    border-radius: 50%;
+}
+
+.nav-barra:focus{
+    border: 1.5px solid rgba(0, 0, 0, 0.897) !important;
+}
+
+.nav-boton{
+    color: black !important;
+    border: 1px solid green !important;
+  }
+  
+  .nav-boton:hover{
+    background-color: #43e97b !important ;
+    color: white !important;
+  }
+  
+  .nav-boton:active{
+    background-color: #43e97b !important ;
+    color: white !important;
+    border: none !important;
+  }
+  
+  .nav-boton:focus{
+    background-color: #43e97b !important ;
+    color: white !important;
+    border: none !important;
+  }
+
