@@ -32,3 +32,25 @@ main{
 
 
 
+.nav-boton{
+    color: black !important;
+    border: 1px solid green !important;
+  }
+  
+  .nav-boton:hover{
+    background-color: #43e97b !important ;
+    color: white !important;
+  }
+  
+  .nav-boton:active{
+    background-color: #43e97b !important ;
+    color: white !important;
+    border: none !important;
+  }
+  
+  .nav-boton:focus{
+    background-color: #43e97b !important ;
+    color: white !important;
+    border: none !important;
+  }
+
