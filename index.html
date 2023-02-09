@@ -52,7 +52,7 @@
       </nav>
     </header>
     <main class="container my-5">
-      <form class="bg-light rounded p-3" id="formulariotarea">
+      <!-- <form class="bg-light rounded p-3" id="formulariotarea"> -->
         <div class="mb-3 d-flex">
           <input
             id="tarea"
@@ -60,10 +60,11 @@
             placeholder="escriba una tarea"
             class="form-control"
           />
-          <button class="btn btn-primary green" type="submit"></button>
+          <button class="btn btn-primary green" onclick="cargarTarea()">+</button>
         </div>
-      </form>
-      <ul class="list-group mt-5" id="listaTareas"></ul>
+      <!-- </form> -->
+      <ul class="list-group mt-5" id="listaTareas">
+      </ul>
     </main>
         <footer class="text-center bg-primary py-3">
           <div class="">
