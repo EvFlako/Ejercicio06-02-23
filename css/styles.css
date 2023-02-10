@@ -1,10 +1,8 @@
+<<<<<<< HEAD
 footer{ 
     font-size: 20px;
 }
 
-.footer-iconos{
-    color: black ;
-}
 @import url('https://fonts.googleapis.com/css2?family=Miltonian+Tattoo&display=swap');
 
 *{
@@ -60,4 +58,10 @@ main{
     color: white !important;
     border: none !important;
   }
+  footer{ 
+    font-size: 20px;
+}
 
+.footer-iconos{
+    color: black ;
+}
