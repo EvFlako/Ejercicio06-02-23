@@ -4,7 +4,6 @@ const lista = document.getElementById('listaTareas');
 
 const tareasVarias = [];
 
-
 function cargarTarea(){
     lista.textContent = "";
     tareasVarias.push(tarea.value);
@@ -27,7 +26,7 @@ function crear() {
         cuerpoTarea.classList = "form-control";
         botonEliminar.classList = "btn btn-danger";
         botonEliminar.textContent = 'Eliminar';
-        botonEliminar.onclick = eliminarTarea
+        botonEliminar.onclick = ()=> eliminarTarea(tareasVarias.indexOf(t));
     }
  );
 }
