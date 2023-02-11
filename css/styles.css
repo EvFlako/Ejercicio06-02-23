@@ -30,6 +30,9 @@ main{
     min-height: 90vh;
 }
 
+.main-button{
+    background-color: #43e97b !important;
+  }
 
 
 .nav-boton{
